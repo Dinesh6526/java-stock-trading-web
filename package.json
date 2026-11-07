@@ -1,0 +1,26 @@
+{
+  "name": "tradesim",
+  "version": "1.0.0",
+  "description": "TradeSim - a simulated stock trading website (Node.js, Express, MySQL, vanilla JS)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node tests/api-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/figtree": "^5.3.0",
+    "bcryptjs": "^3.0.3",
+    "chart.js": "^4.6.1",
+    "dotenv": "^18.0.9",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.7.3",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6"
+  }
+}
